@@ -10,7 +10,7 @@ CREATE TABLE public.employees
     employee_salary numeric(8, 2),
     position_name character varying(50),
     created_at date,
-    departament_id integer NOT NULL,
+    departament_id integer,
     PRIMARY KEY (employee_id)
 );
 
